@@ -414,6 +414,10 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePkgs
+    
 # RIL
 PRODUCT_PACKAGES += \
     libjson \
